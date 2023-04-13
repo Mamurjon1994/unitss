@@ -1,0 +1,89 @@
+*{padding: 0px;
+margin: 0px;}
+
+
+.rasm{
+    position: relative;
+    height: 500px;
+    margin: 0px 30px;
+    background-image: url(./eregli.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+    background-size: cover;}
+    h1{color: greenyellow;
+    position: relative;
+    top: -15px;}
+    button{ 
+        position: relative;
+        left: 60%;
+        top: 20%;
+        background-color: brown;
+    color: aliceblue;
+    width: 40%;
+    height: 20%;}
+    .welcome{
+        position: relative;
+        margin: 5%;
+        width: 45%;
+        height: 50%;
+        background-color:rgba(220, 234, 245, 0.9);
+        padding: 20px;
+    }
+    .page{border: solid 1px;
+    width: 150px;
+    height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+}
+.rasm2{
+    height: 500px;
+    margin: 0px 30px;
+    background-image: url(./sharikchala.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .our{
+        background-color: rgba(221, 232, 241, 0.5);
+        width: 300px;
+        height: 500px;
+        position: relative;
+        left: 50%;
+    }
+    .rasm3{
+        position: relative;
+        height: 500px;
+        margin: 0px 30px;
+        background-image: url(./eregli.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+       
+        
+        background-size: cover;}
+        .multi{
+            position: relative;
+            left: 5%;
+            top: 5%;
+        }
+        .flex{
+            display: flex;
+            gap: 10px;
+            position: relative;
+            left: 5%;
+            top: 5%;
+        }
+        .item{background-color: aliceblue;
+        width: 55px;}
+        .grid{
+            width: 70%;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            position: relative;
+            left: 5%;
+            top: 10%;
+            row-gap: 5%;
+        }
+   
